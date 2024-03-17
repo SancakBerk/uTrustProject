@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loginbackground {
+  background-image: url('./../../public/loginimage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
